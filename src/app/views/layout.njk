@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    {% block head %}
+        <title> TREstore</title>
+    {% endblock}
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+        rel="stylesheet">
+
+        <link rel="styelesheet" href="/style.css">
+    </head>
+    <body>
+        {% includes "parts/header.njk" }
+
+        {% block content %}{% endblock %}
+
+        {% includes "parts/footer.njk}
+
+        <script>
+    </body>
+</html>
