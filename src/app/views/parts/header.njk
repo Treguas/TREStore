@@ -3,15 +3,15 @@
     <div class="container">
         <a href="/">
             <div class="logo">
-                <h1>TREstore</h1>
+                <h1>TRE - Store</h1>
                 <h2>COMPRA E VENDA</h2>
             </div>
         </a>
         <form class="search" method="GET" action="/products/search">
-            <input>
+            <input
                 type="text"
                 name="filter"
-                placeholder="Buscar por Produtos"
+                placeholder="Buscar por Produtos">
                 {% if search.term %}
                     value={{search.term}}
                 {% endif%}
