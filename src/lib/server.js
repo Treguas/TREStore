@@ -11,12 +11,11 @@ server.set("view engine", "njk")
 
 nunjucks.configure("src/app/views", {
     express: server,
+    autoescape: false,
     noCache: true
 })
 
 //server listen the port 5000
 server.listen(5000, function() {
-
     console.log('server is running')
-
 })
