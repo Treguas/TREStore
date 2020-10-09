@@ -109,7 +109,7 @@ header div.container a {
 /*button global*/
 .button {
   background-color: var(--color-secondary);
-  color: gray;
+  color: var(--color-title-in-primary);
   display: block;
   margin: 16px 0;
   padding: 12px 16px;
@@ -122,11 +122,11 @@ header div.container a {
   font-size: 16px;
   text-align: center;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.9s;
 }
 
 .button:hover {
-  background-color: #fd951f;
+  background-color: #2d3e9b;
 }
 
 /*PRODUCTS FORM*/
